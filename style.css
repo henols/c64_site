@@ -1,0 +1,54 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #000;
+    color: #787878; /* Light gray color similar to C64 palette */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #6c5eb5; /* Blue color similar to C64 palette */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*
+#showcase img {
+    width: 20%;
+    height: auto;
+    margin: 20px 0;
+}
+*/
+
+#showcase p {
+    font-size: 1.2em;
+    color: #fff; /* White color for better readability */
+}
