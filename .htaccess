@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME}/index.prg -f
+RewriteRule ^(.*)$ $1/index.prg
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^.*$ /index.php [L,QSA]
+AddType application/octet-stream .bas .prg .p00
+AddType application/octet-stream .bin .rom .crt
+AddType application/octet-stream .bbt .d8b .dfi .rp9
+AddType application/octet-stream .d64 .d71 .d80 .d81 .d82 .d90 .dnp
+AddType application/octet-stream .g41 .g64 .g71 .nib .nbz
+AddType application/octet-stream .t64 .tcrt .tap .htap
