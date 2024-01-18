@@ -1,3 +1,4 @@
+AddHandler application/x-httpd-php .html
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME}/index.prg -f
 RewriteRule ^(.*)$ $1/index.prg
