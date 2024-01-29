@@ -30,7 +30,7 @@ function listDir($dir, $root, $types) {
             // Link to parent directory if not in root
             if ($dir != $root) {
                 $parentDir = dirname($dir);
-                echo "<a href='?dir=" . urlencode($parentDir) . "'>Back to previous directory</a><br><br>";
+                echo "<li><a href='?dir=" . urlencode($parentDir) . "'>Back to previous directory</a></li><br>";
             }
 
             while (($file = readdir($dh)) !== false) {
@@ -49,12 +49,12 @@ function listDir($dir, $root, $types) {
     // Sort and display directories and files
     sort($directories);
     foreach ($directories as $directory) {
-        echo "<a href='?dir=" . urlencode("$dir/$directory") . "'>$directory</a><br>";
+        echo "<li><a href='?dir=" . urlencode("$dir/$directory") . "'>$directory</a></li>";
     }
 
     sort($files);
     foreach ($files as $file) {
-        echo "<a href='$dir/$file'>$file</a><br>";
+        echo "<li><a href='$dir/$file'>$file</a></li>";
     }
 }
 
