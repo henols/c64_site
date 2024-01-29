@@ -18,9 +18,15 @@ function hasPrgFiles($dir) {
 }
 
 // Function to list directories that contain .prg files and .prg files themselves
-function listDir($dir) {
+function listDir($dir, $root) {
     if (is_dir($dir)) {
         if ($dh = opendir($dir)) {
+            // Link to parent directory if not in root
+            if ($dir != $root) {
+                $parentDir = dirname($dir);
+                echo "<a href='?dir=" . urlencode($parentDir) . "'>Back to previous directory</a><br><br>";
+            }
+
             while (($file = readdir($dh)) !== false) {
                 if ($file != "." && $file != "..") {
                     if (is_dir("$dir/$file") && hasPrgFiles("$dir/$file")) {
@@ -36,5 +42,5 @@ function listDir($dir) {
 }
 
 // List directories containing .prg files and .prg files in the current directory
-listDir($currentDirectory);
+listDir($currentDirectory, $rootDirectory);
 ?>
