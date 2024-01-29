@@ -1,6 +1,6 @@
 <?php
 // Default directory path
-$rootDirectory = "/path/to/directory"; // Replace with your root directory path
+$rootDirectory = "."; // Replace with your root directory path
 $currentDirectory = isset($_GET['dir']) ? $_GET['dir'] : $rootDirectory;
 
 // Function to check if directory contains .prg files
