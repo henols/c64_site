@@ -50,11 +50,11 @@
 
 // This header will be displayed at the top of directory listings
 // It should be no longer than 16 characters
-$header = substr("MEATLOAF ARCHIVE", 0, 16);
+$header = substr("C64 FOR LIFE", 0, 16);
 
 /////////////////////////////////////////////////////////////////
 
-$basic_start = 0x0401;
+$basic_start = 0x0801;
 $next_entry = $basic_start;
 
 $root = $_SERVER["DOCUMENT_ROOT"]."/";
@@ -164,7 +164,16 @@ if (strstr($_SERVER['HTTP_USER_AGENT'], "MEATLOAF"))
 <body>
     <header>
         <div class="container">
-            <h1>C64 for life</h1>
+            <table>
+            <tr>
+                <td>
+                    <img src="img/C64_logo.png" alt="C64 Graphic"><br>
+                </td>
+                <td>
+                    <h1>C64 for life</h1>
+                </td>
+            </tr>
+        </table>
             <nav>
                     <!--
                 <ul>
@@ -181,7 +190,7 @@ if (strstr($_SERVER['HTTP_USER_AGENT'], "MEATLOAF"))
 
     <div class="container">
         <section id="showcase">
-            <img src="img/C64_logo.png" alt="C64 Graphic">
+            <!-- <img src="img/C64_logo.png" alt="C64 Graphic"> -->
             <p>Welcome to the Commodore 64 Resource Page.<br>
             This website is dedicated to some information, resources, and links related to the Commodore 64.</p>
 <!--            <img src="OhhC64.png" alt="C64 Graphic"> -->
@@ -191,6 +200,9 @@ if (strstr($_SERVER['HTTP_USER_AGENT'], "MEATLOAF"))
                 <li><a href="https://meatloaf.cc" target="_blank">Meatloaf</a> A Commodore IEC Serial Floppy Drive and WiFi Modem multi-device emulator.</li>
                 <li><a href="https://github.com/idolpx/meatloaf-specialty" target="_blank">Meatloaf speciality</a> the code.</li>
                 <li><a href="https://github.com/Hartland/C64-Keyboard" target="_blank">C64-Keyboard</a> C64 PS2/USB Keyboard.</li>
+                <li><a href="https://www.pictorial64.com/" target="_blank">Pictorial C64</a> The Pictorial C64 Fault Guide</li>
+                <li><a href="https://www.pagetable.com/?p=568 target="_blank">Fast Loader</a> A 256 Byte Autostart Fast Loader for the Commodore 64</li>
+                <li><a href="https://c64os.com/post/loadrunfromasm1 target="_blank">Read C64 data</a> Load and Run from 6502 ASM</li>
             </ul>
         <h1>Available PRG Files</h1>
         <ul>

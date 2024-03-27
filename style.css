@@ -19,6 +19,13 @@ header {
     text-align: center;
 }
 
+header table{
+    background: #6c5eb5; /* Blue color similar to C64 palette */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
 header h1 {
     font-size: 2em;
     margin: 0;
