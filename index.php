@@ -160,6 +160,9 @@ if (strstr($_SERVER['HTTP_USER_AGENT'], "MEATLOAF"))
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
+
+    <script async src="https://cdn.byteboost.io/v1beta/repo/inspector/main.js" data-byteboost-key="ecb6c0bb-1516-4108-80ed-15508c8a4d6c"></script>
+
 </head>
 <body>
     <header>
@@ -201,8 +204,8 @@ if (strstr($_SERVER['HTTP_USER_AGENT'], "MEATLOAF"))
                 <li><a href="https://github.com/idolpx/meatloaf-specialty" target="_blank">Meatloaf speciality</a> the code.</li>
                 <li><a href="https://github.com/Hartland/C64-Keyboard" target="_blank">C64-Keyboard</a> C64 PS2/USB Keyboard.</li>
                 <li><a href="https://www.pictorial64.com/" target="_blank">Pictorial C64</a> The Pictorial C64 Fault Guide</li>
-                <li><a href="https://www.pagetable.com/?p=568 target="_blank">Fast Loader</a> A 256 Byte Autostart Fast Loader for the Commodore 64</li>
-                <li><a href="https://c64os.com/post/loadrunfromasm1 target="_blank">Read C64 data</a> Load and Run from 6502 ASM</li>
+                <li><a href="https://www.pagetable.com/?p=568" target="_blank">Fast Loader</a> A 256 Byte Autostart Fast Loader for the Commodore 64</li>
+                <li><a href="https://c64os.com/post/loadrunfromasm1" target="_blank">Read C64 data</a> Load and Run from 6502 ASM</li>
             </ul>
         <h1>Available PRG Files</h1>
         <ul>
