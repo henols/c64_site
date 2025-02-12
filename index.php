@@ -161,7 +161,8 @@ if (strstr($_SERVER['HTTP_USER_AGENT'], "MEATLOAF"))
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
 
-    <script async src="https://cdn.byteboost.io/v1beta/repo/inspector/main.js" data-byteboost-key="ecb6c0bb-1516-4108-80ed-15508c8a4d6c"></script>
+    <script async src="https://cdn.byteboost.io/v1beta/repo/inspector/main.js" 
+        data-byteboost-key="ecb6c0bb-1516-4108-80ed-15508c8a4d6c"></script>
 
 </head>
 <body>
@@ -200,8 +201,9 @@ if (strstr($_SERVER['HTTP_USER_AGENT'], "MEATLOAF"))
             <br>
             <h1>Some links</h1>
             <ul>
-                <li><a href="https://meatloaf.cc" target="_blank">Meatloaf</a> A Commodore IEC Serial Floppy Drive and WiFi Modem multi-device emulator.</li>
-                <li><a href="https://github.com/idolpx/meatloaf-specialty" target="_blank">Meatloaf speciality</a> the code.</li>
+            <li><a href="https://github.com/henols/firestarter_app" target="_blank">Firestarter</a> Firestarter is an opensource EPROM progammer for the Relatively-Universal-ROM-Programmer.</li>
+            <li><a href="https://meatloaf.cc" target="_blank">Meatloaf</a> A Commodore IEC Serial Floppy Drive and WiFi Modem multi-device emulator.</li>
+            <li><a href="https://github.com/idolpx/meatloaf-specialty" target="_blank">Meatloaf speciality</a> the code.</li>
                 <li><a href="https://github.com/Hartland/C64-Keyboard" target="_blank">C64-Keyboard</a> C64 PS2/USB Keyboard.</li>
                 <li><a href="https://www.pictorial64.com/" target="_blank">Pictorial C64</a> The Pictorial C64 Fault Guide</li>
                 <li><a href="https://www.pagetable.com/?p=568" target="_blank">Fast Loader</a> A 256 Byte Autostart Fast Loader for the Commodore 64</li>
